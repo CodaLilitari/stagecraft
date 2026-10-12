@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "example_only": true,
+  "project_name": null,
+  "updated_at": null,
+  "phase": null,
+  "active_revision": null,
+  "brief_ref": null,
+  "goal": {
+    "authorization_ref": null,
+    "id": null,
+    "status": null,
+    "objective": null,
+    "requested_token_budget": null,
+    "acceptance_checks": [],
+    "checkpoint_conditions": [],
+    "stop_conditions": []
+  },
+  "locked_master": {
+    "path": null,
+    "sha256": null,
+    "duration_us": null,
+    "sample_rate": null,
+    "channels": null,
+    "selection_authorization_ref": null,
+    "locked": null
+  },
+  "authorized_resources": {
+    "authorization_ref": null,
+    "exact_input_files": [],
+    "writable_roots": [],
+    "providers_and_models": [],
+    "allowed_external_actions": [],
+    "reference_upload_allowlist": [],
+    "spending_limit": {
+      "amount": null,
+      "currency": null,
+      "credits": null,
+      "authorization_ref": null
+    },
+    "resource_observations": []
+  },
+  "pending_jobs": [],
+  "artifacts": [],
+  "checkpoint": {
+    "recorded_at": null,
+    "reason": null,
+    "current_revision": null,
+    "evidence_refs": [],
+    "completed_actions": [],
+    "next_safe_action": null
+  },
+  "review_states": {
+    "source_package": {"status": "not_checked", "evidence_refs": []},
+    "technical_render": {"status": "not_checked", "evidence_refs": []},
+    "native_import": {"status": "not_checked", "evidence_refs": []},
+    "native_save_reopen": {"status": "not_checked", "evidence_refs": []},
+    "relocation_relink": {"status": "not_checked", "evidence_refs": []},
+    "sampled_visual_review": {"status": "not_checked", "evidence_refs": []},
+    "continuous_audiovisual_review": {"status": "not_checked", "evidence_refs": []},
+    "user_approval": {"status": "not_checked", "evidence_refs": []}
+  },
+  "holds": [],
+  "unresolved_decisions": [],
+  "next_action": null
+}

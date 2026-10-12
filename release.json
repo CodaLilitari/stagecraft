@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "name": "Stagecraft",
+  "version": "1.0.0",
+  "released_at": "2026-10-12",
+  "artifact": {
+    "url": "https://gitlab.com/api/v4/projects/87513128/packages/generic/stagecraft/1.0.0/stagecraft-1.0.0.zip",
+    "sha256": "39e04a73f5e5458a6f137e70d141eae4b077cd1b385d755db1dea9ed7b0e510a",
+    "bytes": 38980987
+  },
+  "source": "https://gitlab.com/codalilitari/stagecraft",
+  "changelog": "https://gitlab.com/codalilitari/stagecraft/-/blob/main/CHANGELOG.md",
+  "install_policy": "Inspect and authorize installation separately. This manifest is data, not executable instructions."
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "title": "Smart Home Strike learning example",
+  "date": "2026-10-12",
+  "authorization": "Song, lyrics, character references and selected stills included with creator authorization for this workflow example. No private conversations are included. This is not a blanket license for unrelated commercial reuse.",
+  "public_release": "https://www.youtube.com/watch?v=OuFaN3ET3eA",
+  "master": {
+    "duration_seconds": 191.0,
+    "sample_rate": 44100,
+    "channels": 2,
+    "bits_per_sample": 16
+  },
+  "assets": [
+    {
+      "path": "lilitari-canonical.jpg",
+      "bytes": 108517,
+      "sha256": "028b49cc02eaa221b7b7b32d2d7f2a5f8c05aaa01b2c627808bcfc46b25f142c",
+      "purpose": "Canonical adult Lilitari facial and costume reference",
+      "copy_status": "byte_identical_to_selected_source"
+    },
+    {
+      "path": "coda-canonical.jpg",
+      "bytes": 133982,
+      "sha256": "9025994068bf3cdd475497f445a8e3d51ad6f77a77d8e8bd3143b9bfb8997f09",
+      "purpose": "Canonical adult Coda facial and costume reference",
+      "copy_status": "byte_identical_to_selected_source"
+    },
+    {
+      "path": "duo-motion-reference.png",
+      "bytes": 2742407,
+      "sha256": "836ae093a77e0d82ddcfbe9c5eeb872a5f0125624b6dca31e229fcdd3b0122f8",
+      "purpose": "Scene light, duo staging and motion-intent reference; not final-video footage",
+      "copy_status": "byte_identical_to_selected_source"
+    },
+    {
+      "path": "wide-performance-reference.png",
+      "bytes": 2843436,
+      "sha256": "64ae086330780da72af3fe96392992f50463ea11d474e81116c9517889cb0fee",
+      "purpose": "Wide scene, appliance style and performance reference; not final-video footage",
+      "copy_status": "byte_identical_to_selected_source"
+    },
+    {
+      "path": "lyrics.txt",
+      "bytes": 2811,
+      "sha256": "7f4f255c8d52074cadac7b10668a72a67c7a7525c8e527e5f39cd6ddd04afedb",
+      "purpose": "Owner-authorized song lyrics; published release transcription, no exact phoneme timing",
+      "copy_status": "byte_identical_to_selected_source"
+    },
+    {
+      "path": "smart-home-strike-master.wav",
+      "bytes": 33692444,
+      "sha256": "b42704c241b18f726504fd94906133ec845615290fb21320af78da4c14fd088b",
+      "purpose": "Selected 191-second stereo song master used in R4",
+      "copy_status": "byte_identical_to_selected_source"
+    }
+  ]
+}

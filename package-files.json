@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "archive_name": "stagecraft-1.0.0.zip",
+  "entries": [
+    {
+      "path": "music-video-production/agents/openai.yaml",
+      "bytes": 272,
+      "sha256": "d1f33e21f8127044b1f7f9865d74f2cbd9f494fbf2b1e41f96f2e3bf10f7ae7a"
+    },
+    {
+      "path": "music-video-production/assets/smart-home-strike/coda-canonical.jpg",
+      "bytes": 133982,
+      "sha256": "9025994068bf3cdd475497f445a8e3d51ad6f77a77d8e8bd3143b9bfb8997f09"
+    },
+    {
+      "path": "music-video-production/assets/smart-home-strike/duo-motion-reference.png",
+      "bytes": 2742407,
+      "sha256": "836ae093a77e0d82ddcfbe9c5eeb872a5f0125624b6dca31e229fcdd3b0122f8"
+    },
+    {
+      "path": "music-video-production/assets/smart-home-strike/lilitari-canonical.jpg",
+      "bytes": 108517,
+      "sha256": "028b49cc02eaa221b7b7b32d2d7f2a5f8c05aaa01b2c627808bcfc46b25f142c"
+    },
+    {
+      "path": "music-video-production/assets/smart-home-strike/lyrics.txt",
+      "bytes": 2811,
+      "sha256": "7f4f255c8d52074cadac7b10668a72a67c7a7525c8e527e5f39cd6ddd04afedb"
+    },
+    {
+      "path": "music-video-production/assets/smart-home-strike/manifest.json",
+      "bytes": 2425,
+      "sha256": "d4d5d8237a2c911c78c98f3a884eb98dc531903205e79c637dfe904879fb73db"
+    },
+    {
+      "path": "music-video-production/assets/smart-home-strike/provisional-cues.json",
+      "bytes": 3835,
+      "sha256": "2789605709d5f174be1e0fcbbe51c43bb49d0bbed15433e7240b5dba724630ea"
+    },
+    {
+      "path": "music-video-production/assets/smart-home-strike/smart-home-strike-master.wav",
+      "bytes": 33692444,
+      "sha256": "b42704c241b18f726504fd94906133ec845615290fb21320af78da4c14fd088b"
+    },
+    {
+      "path": "music-video-production/assets/smart-home-strike/wide-performance-reference.png",
+      "bytes": 2843436,
+      "sha256": "64ae086330780da72af3fe96392992f50463ea11d474e81116c9517889cb0fee"
+    },
+    {
+      "path": "music-video-production/LICENSE",
+      "bytes": 1154,
+      "sha256": "25bc4d1fe8196b2e22baa6a5844080ef922b17a3f246b6842c916a3690ca2736"
+    },
+    {
+      "path": "music-video-production/NOTICE.md",
+      "bytes": 1105,
+      "sha256": "19e807fa83a6ec067157edc6d2925eda43a4a9d4f6a543364eef036b26ec26db"
+    },
+    {
+      "path": "music-video-production/references/editing-and-delivery.md",
+      "bytes": 6473,
+      "sha256": "fe9a880166a551e753bf8f85a6bf53a29e2bb20f4c0808638f2d159ca254cc2d"
+    },
+    {
+      "path": "music-video-production/references/harness.md",
+      "bytes": 11910,
+      "sha256": "3f90718f0afaacd56814d80aabbe0bcb264cf41b62da80384a259ec8517d8f82"
+    },
+    {
+      "path": "music-video-production/references/models-and-repair.md",
+      "bytes": 11675,
+      "sha256": "cd3a6746fb49b802896365fb75155a0917ae84b7688f3285c2b82555578700c9"
+    },
+    {
+      "path": "music-video-production/references/production.md",
+      "bytes": 6308,
+      "sha256": "8df3ca5a0b94a83d321c11f1b2633b8714f6338d227e1c285d6c49411adb8074"
+    },
+    {
+      "path": "music-video-production/references/smart-home-strike.md",
+      "bytes": 7507,
+      "sha256": "b50ad7174572e98057339128bfa10d2688de6687f8c6ab0b95f083af1fece539"
+    },
+    {
+      "path": "music-video-production/references/tooling-and-review.md",
+      "bytes": 12855,
+      "sha256": "4f32378cfadc2e0d61ce495b97cddb982739969af911695a3d49609efd32f794"
+    },
+    {
+      "path": "music-video-production/scripts/check_updates.py",
+      "bytes": 11472,
+      "sha256": "f4c214d06c9d3933946ed9954e2d4791b5b2f954dd7b0144c2e24f7ed2245baa"
+    },
+    {
+      "path": "music-video-production/scripts/conform_audit.py",
+      "bytes": 18189,
+      "sha256": "64d7ce30aa55a13ed8958d70ce2b3c2bf5bb1d82e41bf5ea1ac786e611789043"
+    },
+    {
+      "path": "music-video-production/scripts/sample_video.py",
+      "bytes": 25155,
+      "sha256": "5e0dba095d21843a4e169e9530b50f349e673e3e2387b25e896c9f47fcc36d18"
+    },
+    {
+      "path": "music-video-production/scripts/test_check_updates.py",
+      "bytes": 14560,
+      "sha256": "7c85ea53eae45bc05b58f327ba428af34dd1b48d6a649273569953ced09c3a93"
+    },
+    {
+      "path": "music-video-production/scripts/test_conform_audit.py",
+      "bytes": 18970,
+      "sha256": "22790939fa7167bb9a18f681608978db678a1e0ea349bfcc5cf967bfde841d50"
+    },
+    {
+      "path": "music-video-production/scripts/test_sample_video.py",
+      "bytes": 15597,
+      "sha256": "9b4b3fce5e088aa6c704f20ba533b144714a75e6151ee5577e09e0ff306565bb"
+    },
+    {
+      "path": "music-video-production/skill-version.json",
+      "bytes": 492,
+      "sha256": "31148615eb480a5f1aa8c21212fc2e82b9bb21f5609357b2912ee3de273dd8df"
+    },
+    {
+      "path": "music-video-production/SKILL.md",
+      "bytes": 8552,
+      "sha256": "6bc2a61d78247979220f49c543854a2ea762e15983ede98e22baed523b017f84"
+    },
+    {
+      "path": "music-video-production/templates/conform.example.json",
+      "bytes": 1192,
+      "sha256": "43c17cda88e1cead61536c8f6a1b55249d09b24fbc199a139d662c3b0474ca5f"
+    },
+    {
+      "path": "music-video-production/templates/production-state.example.json",
+      "bytes": 1881,
+      "sha256": "25d9ea6c70e52c79682839480502679122ac4c942cccf14b3e13382da4f8c764"
+    },
+    {
+      "path": "INSTALL.md",
+      "bytes": 823,
+      "sha256": "4720a2d327c5294acda64e51cdf96864246bad15f4c3d68e16b0fa550691baac"
+    }
+  ]
+}

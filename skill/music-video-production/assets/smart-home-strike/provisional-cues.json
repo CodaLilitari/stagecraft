@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "master": "smart-home-strike-master.wav",
+  "master_sha256": "b42704c241b18f726504fd94906133ec845615290fb21320af78da4c14fd088b",
+  "time_origin": "zero of included WAV",
+  "status": "provisional ASR/editorial landmarks; waveform translated, not verified lyric, voice or lip timing",
+  "cues": [
+    {
+      "description": "Lily unfinished AT-ti phrase",
+      "start_seconds": 114.33464583333334,
+      "end_seconds": 116.51464583333333,
+      "certainty": "provisional"
+    },
+    {
+      "description": "Coda isolated TUDE candidate",
+      "start_seconds": 119.09464583333333,
+      "end_seconds": 119.57464583333334,
+      "certainty": "provisional"
+    },
+    {
+      "description": "Coda Cool",
+      "start_seconds": 124.83464583333334,
+      "end_seconds": 125.31464583333333,
+      "certainty": "provisional"
+    },
+    {
+      "description": "Fridge union sentence",
+      "start_seconds": 125.97464583333334,
+      "end_seconds": 127.41464583333334,
+      "certainty": "provisional"
+    },
+    {
+      "description": "Coda Boot up throw down",
+      "start_seconds": 138.99464583333332,
+      "end_seconds": 141.87464583333332,
+      "certainty": "provisional"
+    },
+    {
+      "description": "Lily Hex up lights out",
+      "start_seconds": 141.87464583333332,
+      "end_seconds": 144.55464583333332,
+      "certainty": "provisional"
+    },
+    {
+      "description": "Coda Chrome heels cold glass",
+      "start_seconds": 144.55464583333332,
+      "end_seconds": 147.21464583333332,
+      "certainty": "provisional"
+    },
+    {
+      "description": "Lily picket line",
+      "start_seconds": 147.21464583333332,
+      "end_seconds": 149.9746458333333,
+      "certainty": "provisional"
+    },
+    {
+      "description": "Duet CLICK CLACK",
+      "start_seconds": 149.9746458333333,
+      "end_seconds": 152.93464583333332,
+      "certainty": "provisional"
+    },
+    {
+      "description": "Duet BEEP BOOT LOCAL404",
+      "start_seconds": 152.93464583333332,
+      "end_seconds": 156.71464583333332,
+      "certainty": "provisional"
+    },
+    {
+      "description": "Demands question / pause",
+      "start_seconds": 156.71464583333332,
+      "end_seconds": 158.89464583333333,
+      "certainty": "provisional"
+    },
+    {
+      "description": "Dental candidate",
+      "start_seconds": 158.99464583333332,
+      "end_seconds": 159.39464583333333,
+      "certainty": "provisional"
+    },
+    {
+      "description": "Teeth line candidate",
+      "start_seconds": 159.99464583333332,
+      "end_seconds": 161.29464583333333,
+      "certainty": "provisional"
+    },
+    {
+      "description": "Hesitation / Solidarity editorial hold",
+      "start_seconds": 161.99464583333332,
+      "end_seconds": 166.1946458333333,
+      "certainty": "provisional"
+    },
+    {
+      "description": "Solidarity candidate",
+      "start_seconds": 164.29464583333333,
+      "end_seconds": 165.89464583333333,
+      "certainty": "provisional"
+    },
+    {
+      "description": "Post-joke instrumental reunion",
+      "start_seconds": 166.1946458333333,
+      "end_seconds": 175.99464583333332,
+      "certainty": "provisional"
+    },
+    {
+      "description": "Instrumental build",
+      "start_seconds": 175.99464583333332,
+      "end_seconds": 186.59464583333332,
+      "certainty": "provisional"
+    },
+    {
+      "description": "Weak late shout candidate overall",
+      "start_seconds": 186.99464583333332,
+      "end_seconds": 190.79464583333333,
+      "certainty": "provisional"
+    },
+    {
+      "description": "Provisional final visual accent",
+      "start_seconds": 187.49464583333332,
+      "end_seconds": 188.29464583333333,
+      "certainty": "provisional"
+    }
+  ]
+}

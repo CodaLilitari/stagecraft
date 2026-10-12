@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "name": "Stagecraft",
+  "version": "1.0.0",
+  "release_date": "2026-10-12",
+  "primary_source": "https://gitlab.com/codalilitari/stagecraft",
+  "release_feeds": [
+    "https://gitlab.com/codalilitari/stagecraft/-/raw/main/release.json",
+    "https://richard-pemberton-research.darkahn.chatgpt.site/projects/stagecraft/release.json"
+  ],
+  "update_policy": "Read-only checks. Review and authorize installation separately; never execute a remote release manifest."
+}

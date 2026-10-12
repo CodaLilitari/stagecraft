@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stagecraft: Music Video Production"
+  short_description: "Build character-driven videos from existing songs"
+  default_prompt: "Use $music-video-production to make or revise a music video from my song, references, available tools, and budget."

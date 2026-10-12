@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "name": "Stagecraft",
+  "version": "1.0.0",
+  "published_date": "2026-10-12",
+  "kind": "codex_skill_and_offline_workflow_toolkit",
+  "skill_name": "music-video-production",
+  "entrypoint": "skill/music-video-production/SKILL.md",
+  "description": "A reusable existing-song music-video workflow with character references, performance generation, source-preserving assembly, native validation and delivery.",
+  "primary_repository": "https://gitlab.com/codalilitari/stagecraft",
+  "portfolio": "https://richard-pemberton-research.darkahn.chatgpt.site/projects/stagecraft/index.html",
+  "release_manifest": "https://gitlab.com/codalilitari/stagecraft/-/raw/main/release.json",
+  "fallback_release_manifest": "https://richard-pemberton-research.darkahn.chatgpt.site/projects/stagecraft/release.json",
+  "github_status": "repository_creation_unavailable_on_current_restricted_account",
+  "authorship": {
+    "project_direction_and_example_materials": [
+      "Andrei",
+      "Lilitari / Lily"
+    ],
+    "workflow_engineering_and_verification": "Coda in Codex"
+  },
+  "requirements": {
+    "helper_python_minimum": "3.11",
+    "python_tested": "3.13.15",
+    "ffmpeg_ffprobe_tested": "7.0.2",
+    "operating_system_tested": "Windows",
+    "python_third_party_packages_required": false,
+    "sampler_requires_ffmpeg_and_ffprobe": true,
+    "provider_accounts_included": false,
+    "paid_api_required_for_offline_helpers": false
+  },
+  "workflow": [
+    "Recover the authoritative recording, brief, cut, ownership and holds",
+    "Establish resource limits and explicitly authorized Goal/checkpoints",
+    "Map the actual audio and supplied lyrics; distinguish provisional timing",
+    "Separate canonical identity from wardrobe and scene design",
+    "Pilot singing, dance energy, identity, light and camera movement together",
+    "Generate through verified host-specific capabilities and record pending jobs",
+    "Inspect one-second samples, dense defect spans and actual audiovisual playback",
+    "Preserve original sources and selected soundtrack during conform/editing",
+    "Validate native frames, audio, save/reopen and editable delivery",
+    "Record completed, sampled, user-approved and unperformed checks separately"
+  ],
+  "helpers": [
+    {
+      "path": "scripts/sample_video.py",
+      "purpose": "Timestamp-aware PNG/HTML sampling and optional reported decode-error checks",
+      "cannot_prove": [
+        "continuous motion",
+        "lip sync",
+        "perceptual approval"
+      ]
+    },
+    {
+      "path": "scripts/conform_audit.py",
+      "purpose": "Manifest timing, coverage, rational rates, bounds and optional hashes",
+      "cannot_prove": [
+        "native import correctness",
+        "actual media durations without independent probing",
+        "visual quality"
+      ]
+    },
+    {
+      "path": "scripts/check_updates.py",
+      "purpose": "Read-only release metadata comparison",
+      "cannot_prove": [
+        "release authenticity",
+        "archive availability",
+        "archive byte equality"
+      ],
+      "downloads_or_installs_code": false
+    }
+  ],
+  "model_observations": [
+    {
+      "route": "Google Flow",
+      "displayed_model": "Omni 1.1 Flash",
+      "state": "rendered_and_reviewed",
+      "lesson": "Canonical facial drift and weak performance energy despite usable narrative/comedy material; not a universal model ranking"
+    },
+    {
+      "route": "Adobe Firefly",
+      "displayed_model": "Kling 3.0 Omni",
+      "state": "rendered_and_reviewed",
+      "lesson": "Stronger multi-shot performance; actor role and phrase timing still need inspection"
+    },
+    {
+      "route": "Direct Kling",
+      "displayed_model": "VIDEO 3.0 Omni",
+      "state": "selected_footage_in_R4",
+      "lesson": "Character Elements, scene references, Auto multi-shot and original 1080p downloads; inspect lyrics and roles"
+    },
+    {
+      "route": "Grok web",
+      "displayed_model": "Imagine; exact backend not exposed",
+      "state": "rendered_and_some_used",
+      "lesson": "Record the exposed route rather than infer a backend"
+    },
+    {
+      "route": "Image generation",
+      "displayed_model": "backend not recorded",
+      "state": "reference_stills_created",
+      "lesson": "Still references anchor identity/light; they are not evidence of animation quality"
+    },
+    {
+      "route": "FaceFusion 3.9.1",
+      "displayed_model": "hyperswap_1a_256",
+      "state": "repair_experiments_executed",
+      "lesson": "Repairs can change freckles, gaze and expression; not automatically production accepted"
+    },
+    {
+      "route": "FaceFusion expression restoration",
+      "displayed_model": "live_portrait",
+      "state": "51_frame_experiment_completed",
+      "lesson": "Measure expression and temporal continuity against original footage"
+    },
+    {
+      "route": "Local deterministic compositing",
+      "displayed_model": "original-eye pixels with tracked mask",
+      "state": "51_frame_experiment_completed",
+      "lesson": "Keep original pixel and encoded-output claims separate; inspect tracking warning intervals"
+    },
+    {
+      "route": "ComfyUI H3",
+      "displayed_model": "MiniMax H3 INT8 reference-to-video graph",
+      "state": "setup_validated_not_sampled",
+      "lesson": "Resource headroom guard stopped before sampling; no generated output or observed model OOM"
+    },
+    {
+      "route": "Topaz Video 1.7.1.0",
+      "displayed_model": "Starlight Precise 2.6",
+      "state": "installed_device_enumerated_no_render",
+      "lesson": "Setup is not an enhancement result; Starlight Fast was not used"
+    },
+    {
+      "route": "Adobe Firefly",
+      "displayed_model": "Veo 3.1 Fast",
+      "state": "attempt_failed_no_output",
+      "lesson": "Do not count a submitted or failed job as produced footage"
+    },
+    {
+      "route": "faster-whisper 1.2.1",
+      "displayed_model": "small.en and base.en CPU INT8",
+      "state": "diagnostic_transcription",
+      "lesson": "ASR is approximate evidence, not authoritative lyrics or phoneme timing"
+    }
+  ],
+  "researched_only": [
+    "Wan",
+    "Runway Aleph 2",
+    "Ray3 Modify",
+    "Dreamina OmniHuman/Avatar",
+    "Seedance",
+    "Veo Lite/Quality"
+  ],
+  "optional_integrations": [
+    "Review Hub",
+    "external-reviewers skill",
+    "Google Flow browser workflow",
+    "Direct Kling browser",
+    "Adobe Creative Cloud MCP",
+    "Premiere UXP",
+    "After Effects JSX/aerender",
+    "Adobe Media Encoder",
+    "CapCut skills/MCP/STDraft",
+    "FFmpeg/ffprobe",
+    "REAPER/TwelveTake",
+    "ComfyUI",
+    "FaceFusion",
+    "Topaz"
+  ],
+  "review_hub": {
+    "required": false,
+    "source": "https://gitlab.com/codalilitari/review-hub",
+    "portfolio": "https://richard-pemberton-research.darkahn.chatgpt.site/projects/review-hub/index.html",
+    "account_configuration_bundled": false,
+    "reviewer_output_grants_authority": false
+  },
+  "example": {
+    "title": "Smart Home Strike",
+    "asset_manifest": "skill/music-video-production/assets/smart-home-strike/manifest.json",
+    "characters": [
+      "Coda",
+      "Lilitari / Lily"
+    ],
+    "included": [
+      "master WAV",
+      "lyrics",
+      "provisional cues",
+      "canonical character sheets",
+      "two scene reference stills"
+    ],
+    "video": {
+      "url": "https://drive.google.com/file/d/1F6DU97Nads5uePAZ32XJo4V0rXuurzis/view",
+      "revision": "R4 full review",
+      "width": 1920,
+      "height": 1080,
+      "frame_rate": "30/1",
+      "frames": 5734,
+      "video_duration_seconds": 191.1333333333,
+      "bytes": 307095363,
+      "local_sha256": "50c323d71afa2ec4933544ed121040bd5dbd37c6a4af8ac03db6f53d1f866fea",
+      "drive_readback": "name_size_mime_and_anyone_reader_permission_verified",
+      "remote_hash_verified": false
+    },
+    "media_license": "Included for the authorized educational example; excluded from the code/documentation MIT license"
+  },
+  "validation": {
+    "helper_tests_passed": 59,
+    "breakdown": {
+      "conform": 24,
+      "sampler": 19,
+      "update_checker": 16
+    },
+    "skill_metadata_validator": "passed",
+    "independent_forward_exercise": "completed",
+    "synthetic_fixture": {
+      "frames": 72,
+      "sample_indices": [
+        0,
+        24,
+        48,
+        71
+      ],
+      "observed_times_seconds": [
+        0,
+        1,
+        2,
+        2.958
+      ],
+      "decode": "passed",
+      "source_hash": "unchanged"
+    },
+    "new_commercial_generation_performed_for_package": false
+  },
+  "privacy": {
+    "private_conversations_included": false,
+    "credentials_included": false,
+    "private_account_configs_included": false
+  },
+  "license": {
+    "code_and_documentation": "MIT",
+    "example_media": "see NOTICE.md"
+  }
+}
