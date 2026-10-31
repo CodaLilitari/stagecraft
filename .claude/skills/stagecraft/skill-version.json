@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "name": "Stagecraft",
+  "version": "1.0.0",
+  "fork": {
+    "name": "Stagecraft for Claude (Red's fork)",
+    "fork_version": "0.1.0",
+    "forked_at": "2026-10-26",
+    "upstream": "https://gitlab.com/codalilitari/stagecraft",
+    "note": "version above is the upstream Stagecraft release this fork was built from"
+  },
+  "primary_source": "https://gitlab.com/codalilitari/stagecraft",
+  "release_feeds": [
+    "https://gitlab.com/codalilitari/stagecraft/-/raw/main/release.json",
+    "https://richard-pemberton-research.darkahn.chatgpt.site/projects/stagecraft/release.json"
+  ],
+  "update_policy": "Read-only checks for upstream findings. Never install or overwrite; fold changes in by hand."
+}
