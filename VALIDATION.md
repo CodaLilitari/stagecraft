@@ -1,5 +1,17 @@
 # Stagecraft 1.0.0 validation
 
+## Documentation revision — 2026-11-01 (unreleased)
+
+The code-directed production guide and cue-to-performer/review-evidence guidance are source-branch documentation additions. The latest versioned release remains 1.0.0; its archive and release manifest are not rebuilt by this update.
+
+The packaged skill passed the skill-creator metadata validator using Python 3.13.15 and an isolated PyYAML 6.0.3 dependency outside the checkout. Local Markdown destinations and JSON parsing passed. Updated installed references and entrypoint were checked for byte parity with the package. All three helper scripts and their three test files retain the published manifest's byte counts and SHA-256 values in both the package and installed skill.
+
+Primary documentation and pinned public source were reviewed for the added claims. The Claudia toolkit example is static source analysis at commit `6071aed58a8e00d6a4e496cb9ef5012be188a026`, not an installed or executed Stagecraft integration. A delegated video review informed questions, but its observations and timestamps were not independently confirmed against the final master in this update. No private review transcript is bundled.
+
+These checks establish structure, local link targets, parseability and file parity. They do not establish renderer performance, audiovisual quality, current provider entitlement or production acceptance. The unchanged helper suite was not rerun, and no new renderer, paid generation or full-film decode ran. The 59 tests and media evidence below belong to the dated October release checks.
+
+## Published 1.0.0 checks — 2026-10-12
+
 Executed on 2026-10-12 on Windows with Python 3.13.15 and FFmpeg/ffprobe 7.0.2. The helper code targets Python 3.11+, but this release was not executed on every supported Python version or operating system.
 
 | Check | Observed result | What it establishes |

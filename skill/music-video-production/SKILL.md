@@ -28,6 +28,7 @@ Use progressive detail:
 - For assembly, quality, native editors and handoff: read [editing-and-delivery.md](references/editing-and-delivery.md).
 - For optional MCP plugins, Review Hub, reviewers, browser routes and local applications: read [tooling-and-review.md](references/tooling-and-review.md).
 - For the executable helpers and a portable project manifest: read [harness.md](references/harness.md).
+- For repeatable graphics, procedural scenes, captions, sound processing or rendering driven by code: read [code-directed-production.md](references/code-directed-production.md). Choose only needed tools, use one frame clock and distinguish documented integrations from executed pilots.
 - For a concrete learning example with audio, lyrics and images: read [smart-home-strike.md](references/smart-home-strike.md). Load its media only when it helps the current task; do not silently reuse its characters in another person's video.
 
 ## Make a small convincing section before a whole film
@@ -41,6 +42,8 @@ For character work, pin canonical facial traits independently of wardrobe. Use v
 Pilot difficult requirements together: recognizable face, useful mouth performance, body energy, lighting, camera movement and cuttable duration. Evaluate these separately. Preserve successful comedy or narrative footage when replacing weak performance. If a model repeatedly fails the central requirement, test a bounded alternative before buying a full film's worth of the same failure.
 
 ## Generate with accountable state
+
+For shots best expressed as code, use an explicit timeline and deterministic frame requests rather than relying on wall-clock playback. Pin assets/fonts and tool versions, pilot the difficult section, and keep renders/caches outside source checkouts. Code-directed layers can accompany generated performances and a native edit; they do not require replacing an existing working production route.
 
 Use the current tool/skill or supported UI for the chosen provider. Verify host, displayed model, reference mode, audio-input capability, settings, output count and quoted cost immediately before submission. Recheck after mode/reference changes. Do not infer API access or music conditioning from a subscription, a model name, or an Audio toggle.
 

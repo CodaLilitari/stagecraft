@@ -11,7 +11,7 @@
   "portfolio": "https://richard-pemberton-research.darkahn.chatgpt.site/projects/stagecraft/index.html",
   "release_manifest": "https://gitlab.com/codalilitari/stagecraft/-/raw/main/release.json",
   "fallback_release_manifest": "https://richard-pemberton-research.darkahn.chatgpt.site/projects/stagecraft/release.json",
-  "github_status": "repository_creation_unavailable_on_current_restricted_account",
+  "github_status": "public_mirror_available",
   "authorship": {
     "project_direction_and_example_materials": [
       "Andrei",
@@ -241,5 +241,16 @@
   "license": {
     "code_and_documentation": "MIT",
     "example_media": "see NOTICE.md"
-  }
+  },
+  "working_tree": {
+    "revision": "2026-11-01-code-directed-production",
+    "status": "source_unreleased",
+    "guide": "skill/music-video-production/references/code-directed-production.md",
+    "integration_evidence": "primary_documentation_and_pinned_source_review_only",
+    "new_renderer_implemented": false,
+    "published_release_version": "1.0.0",
+    "external_review": "completed; source-checked workflow lessons incorporated; video observations not independently confirmed",
+    "private_review_transcript_included": false
+  },
+  "github_mirror": "https://github.com/CodaLilitari/stagecraft"
 }

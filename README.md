@@ -26,7 +26,8 @@ For longer work, explicitly authorize a Goal if you want one. Stagecraft teaches
 
 ## What is included
 
-- A concise `SKILL.md`, six detailed production references, and project-state/conform templates.
+- A concise `SKILL.md`, seven detailed production references, and project-state/conform templates.
+- A code-directed production guide: deterministic frame timing, selective local tooling, audio/caption handling, resource-aware rendering and final-file QA. These are documented integration options; the package does not yet supply a browser, React or Blender renderer.
 - `sample_video.py`: timestamp-aware frame sampling, an HTML review sheet, source hashes and optional full decode checks. Start with one-second samples; inspect dense passages and actual audiovisual playback for motion and sync.
 - `conform_audit.py`: exact rational-rate timing, source bounds, coverage, cumulative frame rounding, optional hash verification and explicit unperformed-review states. It does not import a native timeline or inspect image quality.
 - `check_updates.py`: a read-only release check with GitLab first and the portfolio as fallback. It does not download or install code.
@@ -62,6 +63,9 @@ The primary feed is [GitLab release.json](https://gitlab.com/codalilitari/stagec
 4. [Discover tools and collaborate with reviewers](skill/music-video-production/references/tooling-and-review.md)
 5. [Use the offline harness](skill/music-video-production/references/harness.md)
 6. [Study Smart Home Strike](skill/music-video-production/references/smart-home-strike.md)
+7. [Build repeatable production stages with code](skill/music-video-production/references/code-directed-production.md)
+
+The source branch includes documentation additions dated 2026-11-01. The latest versioned release remains 1.0.0; `release.json`, `package-files.json` and the existing versioned ZIP describe that historical release. Install from the current source branch to include these additions. See the Unreleased changelog and current validation addendum.
 
 The model observations describe this production in October 2026. They are not universal rankings. Google Flow Omni produced useful material but drifted from the canonical faces and often missed the required performance energy. Later Kling routes supplied stronger singing/dance coverage. Local repair experiments were measured and retained as lessons; an executed repair was not automatically accepted into the final cut.
 

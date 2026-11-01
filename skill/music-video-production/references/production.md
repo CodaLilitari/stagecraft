@@ -10,6 +10,31 @@ Use supplied lyrics as text authority; check against the actual take for omissio
 
 For each cue record: song interval, lyric/section, vocalist, dramatic purpose, timing source, confidence, and any protected pause/punchline. Make action readable before adding cuts or effects.
 
+## Assign vocal roles and preserve review evidence
+
+Before generation, make a cue-to-performer record. Keep the intended singer distinct from the performer observed in the selected take. A correct face, recognizable voice or high audio-correlation score does not establish that the right mouth delivers the line.
+
+| Record | What to specify |
+| --- | --- |
+| Cue and recording | Cue ID, exact master/hash, song interval and adopted lyric or ad-lib |
+| Intended ownership | Vocalist and visible singer; duet, offscreen voice or intentional reaction when applicable |
+| Other performers | Expected listening, response, dancing or silence; do not force every other mouth closed when the scene calls for a duet |
+| Selected evidence | Take/hash, source interval and source-to-song timing; actual observed performer and mouth visibility |
+| Separate judgments | Identity, expression/gaze, body motion, role ownership, mouth/phoneme timing and continuity at both joins |
+| Decision | Accepted, repair, replace, intentionally offscreen, or not assessable; reviewer and reason |
+
+This is a production record, not an implemented Stagecraft speaker-diarization or face-recognition system. When voice identity is uncertain, retain that uncertainty rather than filling the intended assignment into the observed field. Preserve successful comedy, reactions and restrained expressions while replacing only a demonstrated failure.
+
+For any automated sync measurement, document what it actually compares: audio against audio, transcript word times, visible mouth movement, or an audiovisual learned representation. Record tool/version, input audio, face selection, crop, visibility coverage, window, lag sign and units, threshold, and failure status. Missing dependencies, no suitable face, occlusion and offscreen vocals are not passing scores. A numerical value does not become a calibrated probability merely because it is called confidence. Singing, sustained vowels, rapid syllables, multiple singers, backing vocals and music-dominated waveforms require representative checks against judged examples. Do not transfer a speech threshold to singing without evidence.
+
+Use corrected lyrics for alignment and display as appropriate, but do not call forced alignment independent verification of those words. Caption treatment and cuts on beats are editorial choices. Protect story timing, sustained gestures, reactions, silence and punchlines even when an automatic grid proposes a cut.
+
+For external or delegated review, retain the reviewed file's hash/version, source URL when relevant, resolution, time origin, exact intervals, review method/model if exposed, and whether audio and continuous motion were available. A compressed social upload can reveal useful problems, but its timestamps and identity details must be checked against the chosen master before repairs. Separate reviewer-reported observations from locally confirmed defects. Unknown model identity and an unavailable source hash remain unknown.
+
+Automation that keeps a draft renderable may substitute a still, freeze a final frame, choose a fallback take or cover a missing performance. Record those substitutions visibly and require acceptance before final delivery. A complete render is not evidence that every shot passed its quality gate. See [production driven by code](code-directed-production.md) for rendering and delivery checks.
+
+**Source-audited example (2026-11-01):** [Claudia toolkit 0.3.6, commit `6071aed`, `avsync.py`](https://github.com/anabologyco-maker/claudia-bot/blob/6071aed58a8e00d6a4e496cb9ef5012be188a026/slop/sync/avsync.py) compares a generated soundtrack with its conditioning reference. It can estimate audio lag and divergence; it does not inspect mouths or identify the visible singer. Its transfer to visual singing quality depends on a model-behavior assumption. The [edit selector](https://github.com/anabologyco-maker/claudia-bot/blob/6071aed58a8e00d6a4e496cb9ef5012be188a026/slop/edit/edl.py) can retain otherwise rejected material as a last fallback. These are static source findings, not an executed integration or a review of that toolkit's finished films. Borrow useful architecture with attribution, and preserve a separate final acceptance gate.
+
 ## Character and style package
 
 Choose a canonical face sheet and useful close/front/three-quarter/profile views. Keep identity traits separate from allowed wardrobe variation. A whole contact sheet helps comparison but may confuse a generator; test a clean crop or individually generated angle if needed. Inspect the crop before upload and meet the host's current minimum dimensions. Never stretch a face to fill a slot.
